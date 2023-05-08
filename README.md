@@ -62,5 +62,5 @@ Since data is originated from nuclear RNAseq, it is required to remove editing v
 vcftools --vcf sample_flit.vcf --out sample_filt_REDI.vcf --bed noChr_REDI_final.bed --recode --keep-INFO-all
 ```
 ## 4. Selection of Shared Variants
-
+Variant Selection Process has been took place by bcftools-isec 
 
